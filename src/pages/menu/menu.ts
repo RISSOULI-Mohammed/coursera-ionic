@@ -32,10 +32,6 @@ export class MenuPage implements OnInit {
         errmess => this.errMess = <any>errmess);
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad MenuPage');
-  }
-
   dishSelected(event, dish) {
     // That's right, we're pushing to ourselves!
     this.navCtrl.push(DishdetailPage, {

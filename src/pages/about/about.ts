@@ -29,8 +29,4 @@ export class AboutPage implements OnInit {
       errmess => this.errMess = <any>errmess);
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad AboutPage');
-  }
-
 }
