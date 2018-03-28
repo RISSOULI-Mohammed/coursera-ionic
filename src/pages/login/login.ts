@@ -23,7 +23,7 @@ export class LoginPage {
   constructor(public navCtrl: NavController, public navParams: NavParams,
     public viewCtrl: ViewController,
     private formBuilder: FormBuilder,
-    private storage: Storage ) {
+    private storage: Storage) {
 
       storage.get('user').then(user => {
         if (user) {
