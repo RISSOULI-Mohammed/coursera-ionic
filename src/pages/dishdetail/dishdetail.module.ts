@@ -4,7 +4,7 @@ import { DishdetailPage } from './dishdetail';
 
 @NgModule({
   declarations: [
-    DishdetailPage,
+    //DishdetailPage,
   ],
   imports: [
     IonicPageModule.forChild(DishdetailPage),
